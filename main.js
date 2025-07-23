@@ -1,6 +1,9 @@
+import { header } from "./componentes/header/headerComponent.js";
 function seccion(){
 
     let seccion = document.createElement('section');
+
+    seccion.appendChild(header());
 
     let h1 = document.createElement('h1');
     h1.className = "titulo";
