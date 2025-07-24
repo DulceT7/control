@@ -5,8 +5,10 @@ export function header() {
 
     let p = document.createElement('p');
     p.innerText = "Header en JavaScript";
+    p.className = "texto"
 
     let div = document.createElement('div');
+    div.innerText ="✨";
     div.className = "circulo";
    
     header.appendChild(p);
