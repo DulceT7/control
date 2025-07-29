@@ -2,4 +2,26 @@
     height: 20rem;
     width: 20rem;
     background-color: red;
+    justify-content: center;
+    justify-items: center;
+}
+
+.imagen{
+    margin: auto;
+    display: flex;
+    margin-top: 5px;
+    width: 10rem;
+    height: 10rem;
+}
+
+.titulo1{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.texto1{
+    margin: 7px;
+    color: white;
+    display: flex;
 }
