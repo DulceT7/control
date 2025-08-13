@@ -1,26 +1,18 @@
-export function item(){
-    let h2 = document.createElement("h2");
-    h2.innerText = "titulo";
-    h2.className = ("titulo1");
-
+export function item(titulo, urlImg) {
     let item = document.createElement('div');
-    item.className = ('item');
+    item.className = "item";
+    item.textContent = titulo;
 
-    let img = document.createElement("img");
-    img.src = "assets/snoopy.jpg";
-    img.className = ("imagen");
-
-    let p = document.createElement("p");
-    p.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    p.className = ("texto1");
-
-
-    item.appendChild(h2);
+    let img = document.createElement('img');
+    img.src = urlImg;
     item.appendChild(img);
-    item.appendChild(p);
 
-    
+    item.addEventListener('click', () => {
+        item.classList.add("verde");
+
+        let header = document.querySelector('.header');
+        header.classList.add("ocultar");
+    });
+
     return item;
-
 }
-

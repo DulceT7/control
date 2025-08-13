@@ -1,9 +1,13 @@
-.seccion-1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 2rem;
+.item{
+    width: 20rem;
+    height: 20rem;
+    background-color: brown;
+    box-shadow: 5px 5px 10px;
+}
+.item Img{
+    width: 100%;
+}
 
-    margin-top: 2rem;
-    justify-items: center;
+.verde{
+    background-color: green;
 }

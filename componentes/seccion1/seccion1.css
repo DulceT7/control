@@ -1,27 +1,10 @@
-.item{
-    height: 20rem;
-    width: 20rem;
-    background-color: red;
-    justify-content: center;
+.seccion-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+
+    margin-top: 2rem;
+
     justify-items: center;
-}
-
-.imagen{
-    margin: auto;
-    display: flex;
-    margin-top: 5px;
-    width: 10rem;
-    height: 10rem;
-}
-
-.titulo1{
-    display: flex;
-    color: white;
-    justify-content: center;
-}
-
-.texto1{
-    margin: 7px;
-    color: white;
-    display: flex;
 }

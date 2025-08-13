@@ -1,7 +1,7 @@
 export function header() {
 
     let header = document.createElement('header');
-    header.className ="contenedor";
+    header.className ="header";
 
     let p = document.createElement('p');
     p.innerText = "Header en JavaScript";

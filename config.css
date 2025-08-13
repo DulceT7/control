@@ -7,3 +7,7 @@ html {
     font-family: monospace;
     font-size: 10px;
 }
+
+.ocultar{
+    display: none !important;
+}
