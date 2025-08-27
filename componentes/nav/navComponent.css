@@ -1,0 +1,15 @@
+.nav {
+    height: 8rem;
+    border: 1px solid black;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}   
+
+.menu {
+    padding: 1.5rem;
+    border: 1px solid black;
+    font-size: 2rem;
+    margin: 2.5rem;
+}

@@ -10,7 +10,7 @@ export function seccion1() {
    
 
     productos.forEach(element => {
-        seccion1.appendChild(item(element.title, element.image));
+        seccion1.appendChild(item(element.title, element.image, element.description, element.price));
     });
 
     return seccion1;

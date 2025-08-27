@@ -1,5 +1,6 @@
 import { header } from "./componentes/header/headerComponent.js";
 import { seccion1 } from "./componentes/seccion1/seccion1.js";
+import { nav } from "./componentes/nav/navComponent.js"
 
 function seccion(){
 
@@ -8,9 +9,12 @@ function seccion(){
     // header
     seccion.appendChild(header());
 
-    // seccion1+8
+    // seccion1
     seccion.appendChild(seccion1());
 
+    //nav
+    seccion.appendChild(nav());
+    
    return seccion;
 }
 
