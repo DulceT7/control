@@ -47,20 +47,5 @@
   margin-left: -5px;
   margin-top: 3rem;
 }
-
-.nav {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 0.2rem;
-    padding: 0.2rem;
-  }
-
-  .nav button {
-    width: 100%;
-    font-size: 13px;
-    padding: 0.3rem 0;
-  }
-  body {
-    padding-bottom: 10px;
-  }
 }
+
